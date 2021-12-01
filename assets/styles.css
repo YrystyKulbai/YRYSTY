@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+body { background: #FFFEF9; font-family: Poppins; color: #000000; }
+.mw-100 { max-width: 100%; }
+
+.logotype { color: #C6553B; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-500 { font-weight: 500; }
+.fw-400 { font-weight: 400; }
+.fw-300 { font-weight: 300; }
+.fw-200 { font-weight: 200; }
+
+/* DECORATION */
+.decoration{
+    height: 100vh;
+    width: 50vw;
+    background: #ECBC76;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index:1;
+  bottom:0;
+  right:0;
+  height:100%;
+}
+.overlayRow {
+  position: absolute;
+  top: -2;
+  left:0;
+  z-index:9;
+  bottom:0;
+  right:0;
+  height:100%;
+  width: 100%;
+}
+
+/* WELCOMES */
+.leftWelcome {
+    float: left;
+}
+.rightWelcome {
+    float: right;
+}
+
+.btnOrange {
+    background: #E48700;
+    color: white;
+}
+
+.noacc {
+    padding-left: 60px;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+
+.forgotpass h6{
+    font-size: 13px;
+    color: #AD3113;
+    font-weight: 400;
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+
+.login-with-google-btn {
+    transition: background-color .3s, box-shadow .3s;
+
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: #ebc386;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    
+}
+
+  .fa {
+    padding-top: 15px;
+    justify-content: center;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-facebook{
+    margin-left: 20px;
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
